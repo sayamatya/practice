@@ -68,6 +68,16 @@ header li{
     display: inline-block;
 }
 
+@media screen and (max-width: 767px) {
+    .toplogo,
+    .topmain,
+    .toppic,
+    .pictext,
+    .pic1,
+    .topfooterlist
+    .;
+}
+
 
 footer{
     width: 100%;
