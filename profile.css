@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+a{
+transition: color 0.3s;
+text-decoration: none;
+color: blue;
+}
+
+a:hover{
+color: darkorange;
+}
+
+header {
+width: 100%;
+background-color: rgb(222, 255, 231);
+color: rgb(8, 89, 6);
+height: 60px;
+position: fixed;
+z-index: 1;
+display: flex;
+align-items: center;
+
+}
+
+.headerlogo {
+font-size: 30px;
+font-family: HGP創英角ﾎﾟｯﾌﾟ体;
+padding-left: 60px;
+}
+
+header li{
+font-size: 18px;
+list-style: none;
+float: left;
+padding-left: 50px;
+padding-bottom: 10px;
+font-family: HG正楷書体-PRO;
+}
+
+.main {
+    width: 100%;
+    background-color: rgb(253, 255, 219);
+}
+
+h1 {
+
+    padding-top: 100px;
+    text-align: center;
+    border-bottom: solid black 3px;
+    font-size: 50px;
+}
+
+
+.kaisha {
+    width: 100%;
+}
+    
+.kaisha th, .kaisha td {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+    
+.kaisha th {
+    font-weight: bold;
+    background-color: #dedede; 
+}
+
+
+    
+@media screen and (max-width: 767px) {
+    .kaisha,
+    .kaisha tr,
+    .kaisha td,
+    .kaisha th {display:block;}
+    .kaisha th {width:auto;}
+}
+
+
+footer{
+    width: 100%;
+    background-color: rgb(220, 254, 255);
+    float: left;
+    height: 110px;
+    text-align: center;    
+}
+    
+    
+.footerlist li{    
+    font-family: HG正楷書体-PRO;
+    font-size: 15px;
+    list-style: none;
+    padding: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    display: inline-block;    
+}
