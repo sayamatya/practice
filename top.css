@@ -74,7 +74,10 @@ header li{
     .toppic,
     .pictext,
     .pic1,
-    .topfooterlist
+    .topfooterlist,
+    .header,
+    .main,
+    .footer,
     .;
 }
 
