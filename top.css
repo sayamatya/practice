@@ -45,10 +45,9 @@ header li{
     background-color: rgb(253, 255, 219);
 }
 
-.toppic {
-    position: relative;
-    height: 10%;
-    width: 100%; 
+.topmain {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .pictext{
