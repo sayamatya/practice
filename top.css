@@ -45,9 +45,10 @@ header li{
     background-color: rgb(253, 255, 219);
 }
 
-.topmain {
-  display: flex;
-  flex-wrap: wrap;
+.toppic {
+    position: relative;
+    height: 10%;
+    width: 100%; 
 }
 
 .pictext{
@@ -63,12 +64,8 @@ header li{
 }
 
 .pic1 {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  height: auto;
+    align-items: center;
+    display: inline-block;
 }
 
 footer{
